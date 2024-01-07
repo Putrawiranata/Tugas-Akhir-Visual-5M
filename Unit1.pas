@@ -5,7 +5,7 @@ interface
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, Menus, StdCtrls, DB, ZAbstractRODataset, ZAbstractDataset,
-  ZDataset, ZAbstractConnection, ZConnection;
+  ZDataset, ZAbstractConnection, ZConnection, ExtCtrls, jpeg;
 
 type
   TForm1 = class(TForm)
@@ -25,6 +25,7 @@ type
     ZConnection1: TZConnection;
     ZQuery1: TZQuery;
     Logout1: TMenuItem;
+    Image1: TImage;
     procedure DataAkun1Click(Sender: TObject);
     procedure DataBarang1Click(Sender: TObject);
     procedure DataPeminjaman1Click(Sender: TObject);
